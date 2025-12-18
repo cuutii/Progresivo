@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2 - HTML + CSS básico</title>
+
+    <!-- Vinculación del archivo CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- Encabezado del sitio -->
+    <header>
+        <h1>Maqueta Web - Página 2</h1>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+        <section>
+            <h2>Sección 1</h2>
+            <p>Contenido de ejemplo dentro de una sección.</p>
+        </section>
+
+        <section>
+            <h2>Sección 2</h2>
+            <p>Otra sección con contenido básico.</p>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2025 - Maqueta Web</p>
+    </footer>
+
+</body>
+</html>
