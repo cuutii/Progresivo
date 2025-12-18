@@ -1,0 +1,18 @@
+<!DOCTYPE html> <!-- Declaración del tipo de documento -->
+<html lang="es"> <!-- Idioma del documento -->
+<head>
+    <meta charset="UTF-8"> <!-- Codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive básico -->
+    <title>Página 1 - Maqueta HTML</title> <!-- Título de la pestaña -->
+</head>
+
+<body> <!-- Cuerpo visible de la página -->
+
+    <!-- Encabezado principal -->
+    <h1>Maqueta Web - Página 1</h1>
+
+    <!-- Párrafo de ejemplo -->
+    <p>Esta es una maqueta básica usando solo HTML.</p>
+
+</body>
+</html>
