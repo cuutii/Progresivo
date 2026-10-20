@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maqueta Web - Progresivo</title>
+  <style>
+    :root { --bg: #0f1420; --panel: #1a2130; --text: #e8ecf4; --accent: #4f8cff; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      padding: 24px 16px; background: var(--bg); color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    .card { width: 100%; max-width: 520px; background: var(--panel); border: 1px solid #2d3853;
+      border-radius: 16px; padding: 28px 24px; }
+    h1 { margin: 0 0 6px; font-size: 1.35rem; text-align: center; }
+    .sub { margin: 0 0 22px; text-align: center; color: #9aa5bc; font-size: .92rem; }
+    .links { display: flex; flex-direction: column; gap: 12px; }
+    a.pag {
+      display: block; padding: 16px 18px; border-radius: 10px; text-decoration: none;
+      background: #232c40; border: 1px solid #2d3853; color: var(--text);
+      transition: background .15s, transform .05s;
+    }
+    a.pag:hover { background: #2a344c; }
+    a.pag:active { transform: translateY(1px); }
+    a.pag strong { color: var(--accent); }
+    a.pag span { display: block; margin-top: 4px; color: #9aa5bc; font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Maqueta Web — Progresivo</h1>
+    <p class="sub">Ejercicio de aprendizaje en dos etapas: primero solo HTML, después HTML + CSS.</p>
+    <div class="links">
+      <a class="pag" href="Pagina1.html">
+        <strong>Página 1</strong> — HTML puro
+        <span>Sin estilos: se ve la estructura cruda de la página.</span>
+      </a>
+      <a class="pag" href="Pagina2.html">
+        <strong>Página 2</strong> — HTML + CSS básico
+        <span>La misma estructura pero conectada a estilos.css.</span>
+      </a>
+    </div>
+  </main>
+</body>
+</html>
